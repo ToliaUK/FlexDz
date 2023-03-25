@@ -1,0 +1,267 @@
+
+
+#wrapper {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+body {
+    font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1330px;
+    padding: 0 20px;
+}
+
+.btn {
+    width: 160px;
+    height: 60px;
+    text-decoration: none;
+    font-family: 'Graphik LC TT', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.btn:hover {
+    box-shadow: 5px 3px 4px 2px greenyellow;
+}
+
+/* HEADER */
+
+.header_top {
+    padding: 25px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_top .container {
+    max-width: 1378px;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_btn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top_btn .btn_orange {
+    margin: 0 -10px 0 10px;
+}
+
+.top_btn .btn_orange .btn {
+    color: #E5E5E5;
+}
+
+.top_btn .btn {
+    line-height: 45px;
+    width: 120px;
+    height: 45px;
+}
+
+.header_navigation {
+    display: flex;
+}
+
+.logo_nav_box {
+    display: flex;
+}
+
+.header_navigation {
+    margin: 14px;
+}
+
+.header_navigation li {
+    font-size: 15px;
+    line-height: 20px;
+    list-style: none;
+    margin-right: 57px;
+}
+
+.header_navigation li:hover {
+    box-shadow: 5px 3px 4px 2px greenyellow;
+}
+
+.logotope{
+    margin-top: 10px;
+}
+
+/* HEADER */
+
+/* MAIN */
+/* TOP SECTION */
+
+.main_top {
+    padding: 126px 0 159px 0;
+    font-family: 'Graphik LCG', Arial, Helvetica, sans-serif;
+}
+
+.top_about {
+    display: flex;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin: 0 0 50px 0;
+    max-width: 552px;
+}
+
+.btn_both_top {
+    display: flex;
+    padding: 25px 0;
+}
+
+.btn_orange .btn {
+    background: #FF6336;
+    margin-right: 10px;
+}
+
+.btn_white .btn {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: #000;
+}
+
+.workflov {
+    margin: 0;
+    font-size: 25px;
+    line-height: 35px;
+    max-width: 470px;
+}
+
+.main_top_img {
+    margin: 20px 0;
+}
+
+.main_top_tittle {
+    line-height: 25px;
+}
+
+/* TOP SECTION */
+/* LOGOTIPS SECTION */
+
+.logotips {
+    padding: 108px 0 102px 0;
+    background: #FF9C7D;
+}
+
+.logotip_about {
+    text-align: center;
+    max-width: 710px;
+    margin: 0 auto;
+    padding: 0 0 65px 86px;
+}
+
+.logotip_about h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.logotip_model {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* LOGOTIPS SECTION */
+/* CONTROL SECTION */
+
+.ikonki_control {
+    padding-bottom: 100px;
+}
+
+.info_control {
+    width: 40%;
+    padding: 116px 0 150px 0;
+}
+
+.ikonki_control :nth-child(2n) {
+    flex-direction: row-reverse;
+}
+
+.box_control {
+    padding: 125px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_control a {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+}
+
+.text_control {
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    margin: 30px 0 35px 0;
+}
+
+.text_control p {
+    margin: 0;
+}
+
+.box_control h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+}
+
+.control_start {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+/* CONTROL SECTION */
+
+/* LOCALIZE SECTIONS */
+
+.localize {
+    background: #FFF8E4;
+    padding: 120px 0;
+}
+
+.localize_apps h2 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.apps_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* LOCALIZE SECTIONS */
+
+/* MAIN */
